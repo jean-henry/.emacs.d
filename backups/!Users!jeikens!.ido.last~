@@ -1,0 +1,148 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/jeikens/web/elacarte/metrics/" . "views/")
+ ("/Users/jeikens/web/services/" . "web-all-in-one/")
+ ("/Users/jeikens/web/" . "elacarte/")
+ ("/private/" . "etc/")
+ ("/Users/" . "jeikens/")
+ ("/Users/jeikens/web/elacarte/" . "metrics/")
+ ("/Library/PostgreSQL/9.2/" . "data/")
+ ("/Library/PostgreSQL/" . "9.2/")
+ ("/Library/" . "PostgreSQL/")
+ ("/" . "private/")
+ ("/ssh:root@192.168.1.223:/opt/elacarte/app/resources/400_degrees/" . "SQL/")
+ ("/ssh:root@192.168.1.223:/opt/elacarte/app/resources/" . "400_degrees/")
+ ("/ssh:root@192.168.1.223:/opt/elacarte/app/" . "resources/")
+ ("/ssh:root@192.168.1.223:/opt/" . "elacarte/")
+ ("/Users/jeikens/delta-blue/resources/public/" . "js/")
+ ("/Users/jeikens/delta-blue/resources/" . "public/")
+ ("/Users/jeikens/delta-blue/" . "src/")
+ ("/Users/jeikens/" . "web/")
+ ("/Users/jeikens/delta-blue/src/delta_blue/" . "views/")
+ ("/Users/jeikens/delta-blue/src/" . "delta_blue/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/jeikens/"
+ "/Users/jeikens/ELCPosMon/posmon/"
+ "/Users/jeikens/web/elacarte/common/models/"
+ "/Users/jeikens/web/elacarte/common/"
+ "/Users/jeikens/web/elacarte/metrics/views/"
+ "/Users/jeikens/web/elacarte/metrics/"
+ "/Users/jeikens/web/elacarte/metrics/alerts/"
+ "/Users/jeikens/.ssh/"
+ "/Users/jeikens/web/"
+ "/Users/jeikens/web/elacarte/"
+ "/private/etc/"
+ "/etc/"
+ "/Users/jeikens/Library/Application Support/Postgres/"
+ "/Library/PostgreSQL/9.2/data/"
+ "/Users/jeikens/ElaCarte/"
+ "/opt/elacarte/app/resources/400_degrees/"
+ "/ssh:root@192.168.1.223:/opt/elacarte/"
+ "/root@192.168.1.223:"
+ "/opt/"
+ "/Users/jeikens/delta-blue/src/delta_blue/views/"
+ "/Users/jeikens/delta-blue/src/delta_blue/"
+ "/Users/jeikens/delta-blue/resources/public/js/"
+ "/Users/jeikens/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".bashrc"
+ ".bash_profile.macports-saved_2013-07-03_at_11:39:14"
+ ".bash_profile.macports-saved_2013-07-03_at_11:36:42"
+ ".bash_profile"
+ ".profile"
+ "posmon.py"
+ "piston.py"
+ "heartbeat.py"
+ "models.py"
+ "posmon_heartbeats.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/jeikens/" (20948 32038 0 0) "web/" "VirtualBox VMs/" "This" "Qt5.0.2/" "Public/" "pip-cache/" "Pictures/" "pgadmin.log" "Music/" "Movies/" "Library/" "ELCPosMon/" "ElaCarte/" "edb_phppgadmin.app.zip" "edb_apachephp.app.zip" "Downloads/" "Documents/" "Desktop/" "delta-blue/" "Client/" "build-ECL-Desktop_Qt_5_0_2_clang_64bit-Debug/" "06-20-2013" ".viminfo" ".Trash/" ".ssh/" ".sh_history" ".recentf" ".psql_history" ".profile" ".pip/" ".pgpass" ".pgadmin_histoqueries" ".macports/" ".m2/" ".lein/" ".ido.last" ".emacs.d/" ".DS_Store" ".config/" ".CFUserTextEncoding" ".CF89AA64" ".bashrc" ".bash_profile.macports-saved_2013-07-03_at_11:39:14" ".bash_profile.macports-saved_2013-07-03_at_11:36:42" ".bash_profile" ".bash_history" ".#.bash_profile" "#.bash_profile#" "../" "./")
+
+ ("/usr/" (20944 40502 0 0) "X11R6/" "X11/" "tmp/" "standalone/" "share/" "sbin/" "local/" "llvm-gcc-4.2/" "libexec/" "lib/" "include/" "bin/" "../" "./")
+
+ ("/usr/local/" (20938 28096 0 0) "var/" "SUPPORTERS.md" "share/" "README.md" "opt/" "man/" "Library/" "lib/" "include/" "Frameworks/" "etc/" "CONTRIBUTING.md" "Cellar/" "bin/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/jeikens/ELCPosMon/posmon/" (20937 62370 0 0) "waiter_updater.py" "utils.pyc" "utils.py" "updater.py" "stdin_listen.py" "posmon.pyc" "posmon.py" "posmodules/" "pos_printer.py" "models.pyc" "models.py" "logmon.pyc" "logmon.py" "heartbeat.pyc" "heartbeat.py" "formatters.pyc" "formatters.py" "errorcodes.pyc" "errorcodes.py" "elcmon.py" "elcerr.pyc" "elcerr.py" "csimodules/" "bmpfont_FreeSans_30.py" "bmp.py" "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/Users/jeikens/ELCPosMon/" (20948 25705 0 0) "win_requirements.txt" "version.yaml" "tests/" "run.py" "requirements.txt" "README.markdown" "pytest.ini" "posmon_wrapper.py" "posmon_silent.nsi" "posmon_defaults.yaml" "posmon.yaml" "posmon.nsi" "posmon/" "logs/" "logging.yaml" "lockfile" "fabfile/" "env.d/" "elcbuild_publickey.pem" "doc/" "deployments/" "cloud deployment port usage.txt" "cacert.pem" "C:\\elc\\posmon_redist/" ".pydevproject" ".project" ".gitignore" ".gitattibutes" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/jeikens/web/elacarte/common/models/" (20939 10213 0 0) "utils.pyc" "utils.py" "surveys.pyc" "surveys.py" "piston.pyc" "piston.py" "metrics.pyc" "metrics.py" "menueditor.pyc" "menueditor.py" "facebook.pyc" "facebook.py" "core.pyc" "core.py" "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/Users/jeikens/web/elacarte/common/" (20939 11642 0 0) "wsgi.py" "urls.pyc" "urls.py" "sql_accessors.pyc" "sql_accessors.py" "shortcuts.pyc" "shortcuts.py" "settings.pyc" "settings.py" "models/" "migrations/" "middleware.pyc" "middleware.py" "management/" "local_settings.py" "helpers.pyc" "helpers.py" "fields.pyc" "fields.py" "admin.py" "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/Users/jeikens/web/elacarte/metrics/tasks/" (20939 9921 0 0) "zoho_integration.py" "send_survey_emails.py" "restaurant_daily_stats.py" "genghis_email_ftp.py" "brinkers_stats_ftp.py" "brinkers_email_fishbowl.py" "applebees_order_report/" "applebees_email_ftp.py" "alert_checker.py" "__init__.py" "../" "./")
+
+ ("/Users/jeikens/web/elacarte/metrics/alerts/" (20939 10213 0 0) "posmon_heartbeats.pyc" "posmon_heartbeats.py" "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/Users/jeikens/web/elacarte/metrics/views/" (20939 11642 0 0) "total.pyc" "total.py" "ticker.pyc" "ticker.py" "survey.pyc" "survey.py" "roepanel.pyc" "roepanel.py" "reports.pyc" "reports.py" "postpayment_survey.pyc" "postpayment_survey.py" "log.pyc" "log.py" "heartbeat.pyc" "heartbeat.py" "graph.pyc" "graph.py" "glance.pyc" "glance.py" "failed_metrics.pyc" "failed_metrics.py" "external.pyc" "external.py" "error.pyc" "error.py" "devices.pyc" "devices.py" "common.pyc" "common.py" "checks.pyc" "checks.py" "advanced.pyc" "advanced.py" "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/Users/jeikens/web/elacarte/metrics/" (20939 11642 0 0) "views/" "urls.pyc" "urls.py" "tests.py" "templates/" "tasks/" "static/" "report_gen/" "pdf_stuff/" "models.pyc" "models.py" "alerts/" "__init__.pyc" "__init__.py" ".gitignore" "../" "./")
+
+ ("/Users/jeikens/web/elacarte/" (20939 10212 0 0) "webservice/" "random_s3storage/" "mobile/" "metrics/" "menueditor/" "heartbeats/" "common/" "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/Users/jeikens/web/services/" (20939 9921 0 0) "webservice-box/" "web-all-in-one/" "template/" "staging2/" "../" "./")
+
+ ("/Users/jeikens/web/" (20939 11175 0 0) "services/" "requirements.txt" "README.markdown" "media/" "manage.py" "fabfile/" "env.d/" "elacarte/" "doc/" ".gitignore" ".gitattibutes" ".git/" "../" "./")
+
+ ("/Users/jeikens/.ssh/" (20939 21282 0 0) "known_hosts" "id_rsa.pub" "id_rsa" "../" "./")
+
+ ("/Users/jeikens/web/env.d/" (20939 6138 0 0) "src/" "lib/" "include/" "bin/" ".Python" "../" "./")
+
+ ("/Users/jeikens/web/services/web-all-in-one/" (20938 40841 0 0) "supervisord.conf" "staging_settings.py" "initscript" "gunicorn.conf" "deployment.json" "apache_ssl.vhost" "apache.vhost" "apache.htpasswd" "../" "./")
+
+ ("/private/etc/" (20938 37530 0 0) "zshenv" "xtab" "ttys" "syslog.conf" "sudoers" "sshd_config" "ssh_config" "snmp/" "shells" "services" "security/" "rtadvd.conf" "rpc" "rmtab" "resolv.conf" "rc.netboot" "rc.imaging" "rc.common" "raddb/" "racoon/" "protocols" "profile" "ppp/" "postgres-reg.ini" "postfix/" "php.ini.default" "php-fpm.conf.default" "pf.os" "pf.conf" "pf.anchors/" "periodic/" "paths.d/" "paths" "passwd" "pam.d/" "openldap/" "ntp_opendirectory.conf" "ntp.conf" "ntp-restrict.conf" "notify.conf" "nfs.conf" "newsyslog.d/" "newsyslog.conf" "networks" "nanorc" "named.conf" "moduli" "master.passwd" "manpaths.d/" "manpaths" "man.conf" "mail.rc" "mach_init_per_user.d/" "mach_init_per_login_session.d/" "mach_init.d/" "locate.rc" "localtime" "krb5.keytab" "kern_loader.conf" "irbrc" "ip6addrctl.conf" "hosts.equiv" "hosts" "hostconfig" "group" "gettytab" "ftpusers" "ftpd.conf.default" "ftpd.conf" "fstab.hd" "find.codes" "emond.d/" "efax.rc" "dnsextd.conf" "defaults/" "cups/" "csh.logout" "csh.login" "csh.cshrc" "com.apple.screensharing.agent.launchd" "bind.keys" "bashrc" "autofs.conf" "auto_master" "auto_home" "authorization.merge" "authorization" "asl.conf" "apache2/" "aliases.db" "aliases" "afpovertcp.cfg" "#hosts#" "../" "./")
+
+ ("/private/" (20899 19146 0 0) "var/" "tmp/" "tftpboot/" "etc/" "../" "./")
+
+ ("/etc/" (20938 34574 0 0) "zshenv" "xtab" "ttys" "syslog.conf" "sudoers" "sshd_config" "ssh_config" "snmp/" "shells" "services" "security/" "rtadvd.conf" "rpc" "rmtab" "resolv.conf" "rc.netboot" "rc.imaging" "rc.common" "raddb/" "racoon/" "protocols" "profile" "ppp/" "postgres-reg.ini" "postfix/" "php.ini.default" "php-fpm.conf.default" "pf.os" "pf.conf" "pf.anchors/" "periodic/" "paths.d/" "paths" "passwd" "pam.d/" "openldap/" "ntp_opendirectory.conf" "ntp.conf" "ntp-restrict.conf" "notify.conf" "nfs.conf" "newsyslog.d/" "newsyslog.conf" "networks" "nanorc" "named.conf" "moduli" "master.passwd" "manpaths.d/" "manpaths" "man.conf" "mail.rc" "mach_init_per_user.d/" "mach_init_per_login_session.d/" "mach_init.d/" "locate.rc" "localtime" "krb5.keytab" "kern_loader.conf" "irbrc" "ip6addrctl.conf" "hosts.equiv" "hosts" "hostconfig" "group" "gettytab" "ftpusers" "ftpd.conf.default" "ftpd.conf" "fstab.hd" "find.codes" "emond.d/" "efax.rc" "dnsextd.conf" "defaults/" "cups/" "csh.logout" "csh.login" "csh.cshrc" "com.apple.screensharing.agent.launchd" "bind.keys" "bashrc" "autofs.conf" "auto_master" "auto_home" "authorization.merge" "authorization" "asl.conf" "apache2/" "aliases.db" "aliases" "afpovertcp.cfg" "../" "./")
+
+ ("/Users/jeikens/Library/" (20938 13782 0 0) "Voices/" "SyncedPreferences/" "Spelling/" "Sounds/" "Screen Savers/" "Saved Application State/" "Safari/" "PubSub/" "Printers/" "Preferences/" "PreferencePanes/" "Metadata/" "Messages/" "Mail/" "Logs/" "LaunchAgents/" "Keychains/" "Keyboard Layouts/" "Internet Plug-Ins/" "Input Methods/" "iMovie/" "Google/" "Fonts/" "FontCollections/" "Favorites/" "Developer/" "Cookies/" "Containers/" "Compositions/" "Colors/" "ColorPickers/" "chat.hipchat.com/" "Calendars/" "Caches/" "Autosave Information/" "Audio/" "Assistants/" "Application Support/" "Accounts/" ".localized" ".FB64CF89" "../" "./")
+
+ ("/Users/jeikens/Library/Application Support/" (20938 29507 0 0) "Versions/" "Ubiquity/" "SyncServices/" "Spotify/" "Postgres/" "NotificationCenter/" "Mail/" "Google/" "GitHub for Mac/" "Dock/" "CrashReporter/" "com.apple.TCC/" "com.apple.QuickLook/" "Brain Explorer 2/" "AddressBook/" "../" "./")
+
+ ("/Users/jeikens/Library/Application Support/Postgres/" (20938 31210 0 0) "postgresql.conf" "../" "./")
+
+ ("/Library/PostgreSQL/" (20938 1509 0 0) "EnterpriseDB-ApachePHP/" "9.2/" "../" "./")
+
+ ("/Library/PostgreSQL/9.2/" (20938 902 0 0) "uninstall-postgresql.app/" "stackbuilder.app/" "share/" "scripts/" "pgAdmin3.app/" "pg_env.sh" "lib/" "installer/" "include/" "doc/" "data/" "bin/" "../" "./")
+
+ ("/Library/" (20938 873 0 0) "Widgets/" "WebServer/" "Video/" "User Pictures/" "Updates/" "SystemProfiler/" "StartupItems/" "Spotlight/" "Spelling/" "Speech/" "Security/" "Scripts/" "ScriptingAdditions/" "Screen Savers/" "Sandbox/" "Ruby/" "Receipts/" "QuickTime/" "QuickLook/" "Python/" "PrivilegedHelperTools/" "Printers/" "Preferences/" "PreferencePanes/" "PostgreSQL/" "Perl/" "PDF Services/" "OpenDirectory/" "Modem Scripts/" "Messages/" "Logs/" "LaunchDaemons/" "LaunchAgents/" "Keychains/" "Keyboard Layouts/" "Java/" "iTunes/" "Internet Plug-Ins/" "Input Methods/" "Image Capture/" "Graphics/" "Frameworks/" "Fonts/" "Filesystems/" "Extensions/" "Documentation/" "DirectoryServices/" "Dictionaries/" "Developer/" "Desktop Pictures/" "CoreMediaIO/" "Contextual Menu Items/" "Compositions/" "Components/" "ColorSync/" "ColorPickers/" "Caches/" "Bundles/" "Audio/" "Application Support/" ".localized" "../" "./")
+
+ ("/Users/jeikens/ElaCarte/" (20938 347 0 0) ".#notez.txt" "#notez.txt#" "../" "./")
+
+ ("/opt/" (17915 20367 0 0) "minicom/" "bin/" "../" "./")
+
+ ("/Users/jeikens/delta-blue/resources/public/js/" (20937 55716 0 0) "require.js" "deltablue.js" "color.js" ".DS_Store" ".#deltablue.js" "#deltablue.js#" "../" "./")
+
+ ("/Users/jeikens/delta-blue/" (20936 52367 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" ".gitignore" ".DS_Store" "../" "./")
+
+ ("/Users/jeikens/delta-blue/resources/" (20936 52367 0 0) "public/" ".DS_Store" "../" "./")
+
+ ("/Users/jeikens/delta-blue/resources/public/" (20936 52367 0 0) "js/" "img/" "css/" ".DS_Store" "../" "./")
+
+ ("/Users/jeikens/Downloads/" (20936 51915 0 0) "SpotifyInstaller.zip" "mac_GitHub for Mac 150.zip" "Install Spotify.app/" "googlechrome.dmg" "emacs.d.zip" "Emacs-24.3-universal-10.6.8.dmg" "eclipse-jee-juno-SR2-macosx-cocoa-x86_64.tar.gz" "color.js" "BrainExplorer2Mac.zip" "About Downloads.lpdf/" ".localized" ".emacs.d 2/" ".emacs.d/" ".DS_Store" "../" "./")
+
+ ("/Users/jeikens/delta-blue/src/delta_blue/views/" (20936 38191 0 0) "welcome.clj" "common.clj" ".#common.clj" "#common.clj#" "../" "./")
+
+ ("/Users/jeikens/.emacs.d/" (20936 32761 0 0) "url/" "tramp" "places" "johneikens-theme.el" "init.el" "elpa/" "backups/" "auto-save-list/" ".smex-items" ".DS_Store" "../" "./")
+
+ ("/Users/" (20933 63815 0 0) "Shared/" "jeikens/" ".localized" "../" "./")
+
+ ("/Users/jeikens/delta-blue/src/delta_blue/" (20936 32234 0 0) "views/" "server.clj" "models/" "../" "./")
+
+ ("/Users/jeikens/delta-blue/src/" (20936 32234 0 0) "delta_blue/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -1,0 +1,12 @@
+A combination of a simple markup language and an iterative protocol for imposing a linear flow on the authoring of non-linear documents.
+
+I need to write. Not purely for any sentimental or aesthetic reason, but simply because I know that thinking-with-a-keyboard-and-visual-buffer is a different act than just "thinking" (or maybe thinking-with-poor-fidelity-buffers-of-every-sensory-variety). One of my hangups with writing is thatwhile I tend to think in recursive patterns, with a reading style on the internet to match, writing text must always be, by conventional necessity (though this is less the case with web media), linear and iterative. The words must be ordered and the order of the words matter. 
+
+To facilitate less linear thought, and writing, I should do [the following]:
+   1. Write a "paragraph" of text, 1-5 sentences, annotated with {markup system specified below}. The markup should piggyback on intuition that has evolved around punctuation and syntax, both prosaic and programmatic. The set of symbols should be as small as possible. 
+
+markup-system-specified-below:
+        All symbols are used in pairs to surround blocks of text, like parens, and can be nested.
+        
+        **: Term needs to be unpacked. User is prompted with the following: "Elaborate
+      

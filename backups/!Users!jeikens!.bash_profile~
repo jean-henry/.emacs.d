@@ -1,0 +1,19 @@
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin
+
+##
+# Your previous /Users/jeikens/.bash_profile file was backed up as /Users/jeikens/.bash_profile.macports-saved_2013-07-03_at_11:36:42
+##
+
+# MacPorts Installer addition on 2013-07-03_at_11:36:42: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+
+##
+# Your previous /Users/jeikens/.bash_profile file was backed up as /Users/jeikens/.bash_profile.macports-saved_2013-07-03_at_11:39:14
+##
+
+# MacPorts Installer addition on 2013-07-03_at_11:39:14: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+

@@ -1,0 +1,128 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Applications/" . "Address Book.app/")
+ ("/" . "Applications/")
+ ("/Users/johneikens/SelfServer/src/SelfServer/" . "views/")
+ ("/Users/johneikens/.emacs.d/" . "auto-save-list/")
+ ("/Users/johneikens/SelfServer/test/" . "SelfServer/")
+ ("/Users/johneikens/SelfServer/" . "src/")
+ ("/Users/johneikens/" . "SelfServer/")
+ ("/Users/johneikens/SelfServer/resources/public/" . "css/")
+ ("/Users/johneikens/SelfServer/resources/" . "public/")
+ ("/Users/johneikens/SelfServer/src/" . "SelfServer/")
+ ("/Users/johneikens/Server/src/" . "Server/")
+ ("/SelfServer:Server/seRVERTEST/" . "src/")
+ ("/SelfServer:Server/" . "seRVERTEST/")
+ ("/SelfServer:" . "Server/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/johneikens/SelfServer/src/SelfServer/clcss/"
+ "/Users/johneikens/SelfServer/src/SelfServer/views/"
+ "/Users/johneikens/.emacs.d/"
+ "/Users/johneikens/SelfServer/"
+ "/Users/johneikens/SelfServer/src/SelfServer/"
+ "/bin/"
+ "/Users/johneikens/SelfServer/src/SelfServer/models/"
+ "/etc/"
+ "/Users/johneikens/Documents/"
+ "/Users/johneikens/Documents/Blog Import/"
+ "/Users/johneikens/Downloads/"
+ "/Users/johneikens/testClj/"
+ "/Users/johneikens/Server/script/"
+ "/Users/johneikens/Server/src/Server/"
+ "/Users/johneikens/Server/"
+ "/Users/johneikens/Documents/Saved Chats/"
+ "/Users/johneikens/Documents/AdventureCycling/"
+ "/ssh:SelfServer:"
+ "/Users/johneikens/.ssh/"
+ "/Users/johneikens/Notes/"
+ "/SelfServer:Server/seRVERTEST/src/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "common.clj"
+ "init.el"
+ "project.clj"
+ "server.clj"
+ "main.clj"
+ "index.clj"
+ "tree"
+ "lein"
+ "metrics.clj"
+ "scheduler.clj"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/johneikens/SelfServer/src/SelfServer/clcss/" (20881 46977) "main.clj" "../" "./")
+
+ ("/Users/johneikens/SelfServer/src/SelfServer/views/" (20881 43210) "metrics.clj" "index.clj" "common.clj" "#common.clj#" "../" "./")
+
+ ("/Users/johneikens/SelfServer/src/SelfServer/" (20881 43210) "views/" "server.clj" "models/" "cljs/" "clcss/" "#server.clj#" "../" "./")
+
+ ("/Users/johneikens/" (20881 43210) "SelfServer/" "Scripts/" "Samsung/" "repl-port" "Public/" "Pictures/" "OpenFrameworks/" "Notes/" "Music/" "Movies/" "Mail/" "Library/" "Keys/" "IP.html" "Downloads/" "Documents/" "Desktop/" "CS6 Design and Web Premium/" "Clojure/" "273520th_rsa.pub" ".zshrc" ".zprofile" ".Trash/" ".tor/" ".thumbnails/" ".subversion/" ".ssh/" ".sh_history" ".rvm/" ".recently-used" ".recentf" ".putty/" ".profile" ".netrc" ".netbeans/" ".mongorc.js" ".MacOSX/" ".m2/" ".local/" ".lein/" ".jmonkeyplatform-installer/" ".jme3/" ".jline-reply.history" ".inputrc" ".ido.last" ".heroku/" ".gitconfig" ".gem/" ".flux/" ".filezilla/" ".emacs.d.pre-prelude.tar" ".emacs.d/" ".eclipse/" ".DS_Store" ".dbshell" ".config/" ".CFUserTextEncoding" ".cake/" ".cache/" ".bashrc" ".bash_profile" ".bash_history" ".android/" "../" "./")
+
+ ("/Users/johneikens/.emacs.d/" (20881 28854) "url/" "tramp" "places" "johneikens-theme.el" "init.el" "elpa/" "backups/" "auto-save-list/" ".smex-items" ".DS_Store" "../" "./")
+
+ ("/Users/johneikens/SelfServer/" (20881 31550) "test/" "target/" "src/" "scratch/" "resources/" "project.clj" "Procfile" ".project" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Applications/Address Book.app/" (20710 33008) "Contents/" "../" "./")
+
+ ("/Applications/" (20873 10592) "Xcode.app/" "VLC.app/" "uTorrent.app/" "Utilities/" "Unity/" "Time Machine.app/" "Thunderbird.app/" "TextWrangler.app/" "TextMate.app/" "TextEdit.app/" "System Preferences.app/" "SuperCollider/" "Stickies.app/" "Spotify.app/" "Safari.app/" "RemoteHelper.app/" "Remote Desktop Connection.app/" "QuickTime Player.app/" "Processing.app/" "Preview.app/" "Photo Booth.app/" "MySQLWorkbench.app/" "Mission Control.app/" "Minecraft.app/" "Microsoft Silverlight/" "MAMP PRO/" "MAMP/" "Mail.app/" "MagicLauncher.app/" "MacPorts/" "Macfusion.app/" "M-Audio FireWire.app/" "Logic Pro.app/" "Launchpad.app/" "Kies.app/" "iTunes.app/" "iPhoto.app/" "iMovie.app/" "Image Capture.app/" "iMacsoft iPad to Mac Transfer.app/" "iExplorer.app/" "iChat.app/" "iCal.app/" "Google Earth.app/" "Google Chrome.app/" "GitHub.app/" "GIMP.app/" "GarageBand.app/" "Font Book.app/" "FileZilla.app/" "FaceTime.app/" "Emacs.app/" "eclipse/" "DVD Player.app/" "Dictionary.app/" "Diablo III/" "Dashboard.app/" "DarwiinRemote.app/" "Chess.app/" "Calculator.app/" "Braid.app/" "blender.app/" "Automator.app/" "App Store.app/" "Adobe Download Assistant.app/" "Adobe/" "Address Book.app/" ".localized" ".DS_Store" "../" "./")
+
+ ("/bin/" (20881 12961) "zsh" "wait4path" "unlink" "tree" "test" "tcsh" "sync" "stty" "spotify" "sleep" "sh" "rmdir" "rm" "rcp" "pwd" "ps" "pax" "mv" "mongotop" "mongostat" "mongosniff" "mongos" "mongorestore" "mongoperf" "mongooplog" "mongoimport" "mongofiles" "mongoexport" "mongodump" "mongod" "mongo" "mkdir" "ls" "ln" "link" "lein" "launchctl" "ksh" "kill" "hostname" "gsearch" "expr" "ed" "echo" "domainname" "df" "dd" "date" "csh" "cp" "chmod" "cat" "bsondump" "bash" "[" "../" "./")
+
+ ("/Users/johneikens/SelfServer/src/SelfServer/models/" (20798 34062) "scheduler.clj" "partials.clj" "mongo.clj" "../" "./")
+
+ ("/etc/" (20819 23072) "zshenv" "xtab" "xgrid/" "ttys" "syslog.conf" "sudoers" "sshd_config" "ssh_config" "snmp/" "shells" "services" "security/" "rtadvd.conf" "rpc" "rmtab" "resolv.conf" "rc.netboot" "rc.imaging" "rc.common" "racoon/" "protocols" "profile" "ppp/" "postfix/" "php.ini.default" "pf.os" "pf.conf" "pf.anchors/" "periodic/" "paths.d/" "paths" "passwd" "pam.d/" "openldap/" "ntp.conf" "ntp-restrict.conf" "notify.conf" "newsyslog.d/" "newsyslog.conf" "networks" "nanorc" "named.conf" "moduli" "memberd.conf" "master.passwd" "manpaths.d/" "manpaths" "man.conf" "mail.rc" "mail/" "mach_init_per_user.d/" "mach_init_per_login_session.d/" "mach_init.d/" "locate.rc" "localtime" "krb5.keytab" "kern_loader.conf" "kcpassword" "jabberd/" "irbrc" "hosts.equiv" "hosts" "hostconfig" "group" "gettytab" "ftpusers" "ftpd.conf.default" "ftpd.conf" "fstab.hd" "find.codes" "emond.d/" "efax.rc" "dnsextd.conf" "defaults/" "cups/" "csh.logout" "csh.login" "csh.cshrc" "com.apple.screensharing.agent.launchd" "certificates/" "bind.keys" "bashrc" "autofs.conf" "auto_master" "auto_home" "authorization" "asl.conf" "apache2/" "amavisd.conf.default" "aliases.db" "aliases" "afpovertcp.cfg" "6to4.conf" "../" "./")
+
+ ("/Users/johneikens/SelfServer/src/" (20770 32652) "SelfServer/" ".DS_Store" "../" "./")
+
+ ("/Users/johneikens/.emacs.d/auto-save-list/" (20777 4547) ".saves-924-Johns-Mac-mini.local~" ".saves-675-Johns-Mac-mini.local~" ".saves-3658-Johns-Mac-mini.local~" ".saves-28771-Johns-Mac-mini.local~" ".saves-2531-Johns-Mac-mini.local~" ".DS_Store" "../" "./")
+
+ ("/Users/johneikens/Documents/" (20766 39644) "YOU WILL FUCKING WRITE DAMMIT/" "workspace/" "Wordpress Test/" "Voxengo SPAN User Guide en.pdf" "untitled.html" "test.clj" "setup git PATH for non-terminal programs.sh" "SC2-WingsOfLiberty-enUS-Installer/" "Saved Chats/" "RDC Connections/" "product page img.tiff" "Processing/" "Finance/" "EmacsTutorial.txt" "Credit Reports/" "CLAdPrefix.txt" "Blog Import/" "BitterSweetII User Manual.pdf" "AptHunt/" "Aptana Rubles/" "Alchemist User Manual.pdf" "AdventureCycling/" "About Stacks.lpdf/" "2063" ".localized" ".DS_Store" ".1SVXA2SGD9AGH/" "#SelfDescription#" "../" "./")
+
+ ("/Users/johneikens/SelfServer/test/SelfServer/" (20770 31081) "../" "./")
+
+ ("/Users/johneikens/SelfServer/test/" (20770 31081) "SelfServer/" "../" "./")
+
+ ("/Users/johneikens/SelfServer/target/" (20770 31615) "stale/" "repl-port" "classes/" "../" "./")
+
+ ("/Users/johneikens/SelfServer/resources/public/css/" (20770 31081) "reset.css" "../" "./")
+
+ ("/Users/johneikens/SelfServer/resources/public/" (20770 31081) "js/" "img/" "css/" "../" "./")
+
+ ("/Users/johneikens/SelfServer/resources/" (20770 31081) "public/" "../" "./")
+
+ ("/Users/johneikens/Documents/Blog Import/" (20767 59842) "WPFixed.xml" "cleanup_log.txt" "cleancomments.pyc" "cleancomments.py" "blogimportiv.wordpress.2013-02-16 (2).xml" "#WPFixed.xml#" "../" "./")
+
+ ("/Users/johneikens/Downloads/" (20767 59341) "Website_Tasks.rtf" "Web_Files.zip" "TMcheatsheet.pdf" "The-Kiss-of-LaMourette.docx" "The Selfish Gene - R. Dawkins (1976) WW.pdf" "The Nature of Computation PDF.pdf" "test.cfm" "SSHFS-2.4.1.pkg" "Sonic Ethers Unbelievable Shaders v08 1.2.4 and 1.2.5.zip" "solarized.zip" "solarized/" "SlatwallScope.cfc" "SlatwallPropertyDisplayFrontEndBootstrap.cfm" "SlatwallPropertyDisplay.cfm" "SlatwallFormFieldBootstrap.cfm" "SlatwallFieldDisplay.cfm" "SlatwallAddressDisplayBootstrap.cfm" "Silverlight.dmg" "robrohan-coldfusion.tmbundle-55f2a9c.zip" "robrohan-coldfusion.tmbundle-55f2a9c/" "RemoteHelper-4.2.12.dmg" "RDC_2.1.1_ALL.dmg" "puttygen.exe" "psgml-1.3.2.tar.gz" "psgml-1.3.2/" "productpages.cfm" "Product.cfc" "Processing.app/" "processing-2.0b7-macosx.zip" "PriceGroupService.cfc" "pricegroup.cfm" "payment.cfm" "OSXFUSE-2.5.1.dmg" "OptiFine_1.4.6_HD_U_C3.zip" "OptiFine_1.4.6_HD_U_C3/" "mysql-workbench-gpl-5.2.43-osx-i686.dmg" "muraURLTools-master.zip" "mura-5.6.4994.zip" "mura-5.6.4994/" "mmm-mode-0.4.8.tar.gz" "Minecraft.zip" "MaryannKeyPair.pem" "main.cfc" "MagicLauncher_1.0.0.zip" "MagicLauncher 2.app/" "MagicLauncher" "MacPorts-2.1.2-10.7-Lion.pkg" "Macfusion_2.0.4.zip" "macfuse-core-10.5-2.1.9.dmg" "MacFUSE-2.0.3,2.dmg" "mac_GitHub for Mac 53.zip" "LB Photo Realism x128 8.5.4/" "installer_adobe_photoshop_cs5.exe" "Homeland.S02E09.HDTV.x264-ASAP.[VTV].mp4" "Homeland.S02E08.HDTV.x264-ASAP.[VTV].mp4" "Homeland.S02E06.HDTV.x264-ASAP.[VTV].mp4" "Homeland.S02E02.HDTV.x264-EVOLVE.[VTV].mp4" "Homeland.S02E01.HDTV.x264-EVOLVE.[VTV].mp4" "Homeland.S01E02.Grace.HDTV.XviD-FQM.[VTV].avi" "Homeland S02E07 Season 2 Episode 7 HDTV x264 [GlowGaze]/" "Homeland S02E05 HDTV x264-ASAP[ettv]/" "Homeland S02E04 HDTV x264-ASAP[ettv]/" "Homeland S02E03 HDTV x264-ASAP[ettv]/" "Header_Footer_Markup.zip" "Header_Footer_Markup (1).zip" "GoogleVoiceAndVideoSetup.dmg" "GoogleVoiceAndVideoSetup (1).dmg" "googletalk-setup.exe" "GoogleEarthMac-Intel.dmg" "googleearth-mac-plugin-intel.dmg" "googlecl-0.9.11.zip" "GlovePIE045Free.zip" "GlovePIE045Free/" "GitHub.app/" "gimp-2.8.2-dmg-2.dmg" "fulfillment.cfm" "FileZilla_3.5.3_i686-apple-darwin9.app.tar.bz2" "eventHandler.cfc" "eclipse-jee-juno-SR1-macosx-cocoa-x86_64.tar.gz" "ec2-api-tools.zip" "ec2-api-tools-1.6.3.0/" "dsp_form_join.cfm" "dsp_form_inquiry.cfm" "detailproduct.cfm" "detail.cfm" "DarwiinRemote-2011-03-08-10-00.dmg" "css-mode.el" "creditCard.cfm" "Collect 2/" "Collect/" "ClojureServerKey.pem" "clojure-1.4.0.zip" "clojure-1.4.0 (1).zip" "clojure-1.3.0.zip" "cleancomments.py" "checkout.cfc" "blogimportiv.wordpress.2013-02-16.xml" "blogimportiv.wordpress.2013-02-16 (2).xml" "blogimportiv.wordpress.2013-02-16 (1).xml" "blog-02-16-2013.xml" "BaseObject.cfc" "BaseController.cfc" "AppStartSaver-2.1.dmg.zip" "AppStartSaver-2.1.dmg" "AmazonEC2.pem" "Address.cfc" "acroutes.zip" "account.cfm" "ACAValidate.js" "ACA_FACT_SHEET.pdf" "[isoHunt] Homeland.S02E09.HDTV.x264-ASAP.[VTV].mp4.torrent" "[isoHunt] Homeland.S02E08.HDTV.x264-ASAP.[VTV].mp4.torrent" "[isoHunt] Homeland.2x02.(HDTV-x264-EVOLVE)[VTV].torrent" "[isoHunt] Homeland.1x02.(HDTV-FQM)[VTV].torrent" "[isoHunt] Homeland S02E07 Season 2 Episode 7 HDTV x264 [GlowGaze].torrent" "[isoHunt] Homeland S02E05 HDTV x264-ASAP[ettv].torrent" "[isoHunt] Homeland S02E04 HDTV x264-ASAP[ettv].torrent" "[isoHunt] Homeland S02E03 HDTV x264-ASAP[ettv].torrent" "[isoHunt] 53CE87207E678731481AE0670B8227AE164EDD91.torrent" "[isoHunt] 5009738.torrent" "[isoHunt] 4838327.torrent" "02_Borrowed_Time.mp3" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/johneikens/testClj/" (20761 44300) "test/" "src/" "README.md" "project.clj" "doc/" ".gitignore" "../" "./")
+
+ ("/Users/johneikens/Server/script/" (20761 43915) "../" "./")
+
+ ("/Users/johneikens/Server/" (20761 44069) "test/" "src/" "script/" "run.clj" "README.md" "project.clj" "doc/" ".gitignore" ".#project.clj" "#project.clj#" "../" "./")
+
+ ("/Users/johneikens/Server/src/Server/" (20761 40561) "core.clj" "../" "./")
+
+ ("/Users/johneikens/Server/src/" (20761 40561) "Server/" "../" "./")
+
+ ("/Users/johneikens/Documents/Saved Chats/" (20757 17839) "../" "./")
+
+ ("/Users/johneikens/Documents/AdventureCycling/" (20755 65159) "../" "./")
+
+ ("/Users/johneikens/.ssh/" (20721 55795) "MaryannKeyPair.pem" "macminipriv_rsa" "macmini.pub" "known_hosts" "id_rsa.pub" "id_rsa" "github_rsa.pub" "github_rsa" "config~" "config" "273520th_rsa" ".DS_Store" "#config#" "../" "./")
+
+ ("/Users/johneikens/Notes/" (20712 30593) "../" "./")
+
+ ("/Users/" (20285 43732) "Shared/" "johneikens/" ".localized" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

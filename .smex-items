@@ -1,0 +1,25 @@
+
+;; ----- smex-history -----
+(
+ kill-line
+ package-list-packages
+ shell
+ recover-this-file
+ customize-themes
+ load-theme
+ set-background-color
+)
+
+;; ----- smex-data -----
+(
+ (shell . 7)
+ (package-install . 2)
+ (nrepl-jack-in . 1)
+ (list-colors-display . 1)
+ (set-background-color . 1)
+ (package-list-packages . 4)
+ (customize-themes . 3)
+ (load-theme . 1)
+ (recover-this-file . 1)
+ (kill-line . 1)
+)

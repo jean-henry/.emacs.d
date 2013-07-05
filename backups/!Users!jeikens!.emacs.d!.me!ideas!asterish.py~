@@ -1,0 +1,24 @@
+#You can write ugly code if you want.
+#You cannot write code by not writing code, even if you want to.
+import os, sys
+
+#You are writing this to soothe your soul.
+class Asterism:
+    """What the symbols mean:
+    *: Author wishes to expand on the text enclosed. >>> "*<text>*"? Elaborate:". Input is a child asterism.
+   To be expanded...
+    """
+    self.symbols = ['*']
+    self.symbToRe = {'*': '\*.+\*'}
+    def __init__(self):
+        self.text = ""
+        self.children = {symbol: [] for symbol in self.symbols} 
+    
+    def collectInput(self):
+        return sys.stdin.readLine()
+    
+        
+            
+            
+        
+        

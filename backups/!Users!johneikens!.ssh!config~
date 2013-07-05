@@ -1,0 +1,24 @@
+Host MaryannsSite
+	HostName www.maryanneikens.com
+	Port 22
+	User ec2-user
+	IdentityFile ~/.ssh/MaryannKeyPair.pem
+	
+Host MomSite
+	HostName 54.245.112.161
+	Port 22
+	User jemac
+	IdentityFile ~/.ssh/macminipriv_rsa
+
+Host ClojureServer
+     HostName 23.21.54.107
+     Port 22
+     User ec2-user
+     IdentityFile ~/.ssh/ClojureServerKey.pem
+
+Host SelfServer
+	Hostname 192.168.1.145
+	User jeikens
+	IdentityFile ~/.ssh/id_rsa
+	
+ChallengeResponseAuthentication yes

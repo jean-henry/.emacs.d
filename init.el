@@ -1,0 +1,40 @@
+(require 'package)
+(add-to-list 'package-archives
+             '("marmalade" . "http://marmalade-repo.org/packages/") t)
+(package-initialize)
+(when (not package-archive-contents)
+  (package-refresh-contents))
+
+;; Add in your own as you wish:
+(defvar my-packages '(starter-kit starter-kit-lisp starter-kit-bindings)
+  "A list of packages to ensure are installed at launch.")
+(load-theme 'zenburn t)
+
+(set-face-attribute 'default nil :height 120)
+
+;; Square bracket wrapping with meta key.
+(global-set-key (kbd "M-[") 'paredit-wrap-square)
+(global-set-key (kbd "C-x f") 'find-file)
+(global-linum-mode t)
+(set-frame-parameter nil 'fullscreen 'fullboth)
+
+(setq path "/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/local/mysql/bin")
+(setenv "PATH" path)
+
+
+
+(dolist (p my-packages)
+  (when (not (package-installed-p p))
+    (package-install p)))
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(tramp-default-method "ssh"))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

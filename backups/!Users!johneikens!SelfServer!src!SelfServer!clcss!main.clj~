@@ -1,0 +1,13 @@
+(ns SelfServer.clcss.main 
+  (:require [ cssgen.use :refer :all]
+            [ cssgen :as css]
+            ))
+
+(def style
+  (css/rule "h1"
+        :color "#9966FF"
+        )
+  )
+
+
+

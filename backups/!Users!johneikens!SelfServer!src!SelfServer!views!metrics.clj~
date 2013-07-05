@@ -1,0 +1,38 @@
+(ns SelfServer.views.metrics
+  (:use [noir.core :only [defpartial defpage]]
+        [hiccup.page :only [include-css html5]]
+        [clj-time.format :as time]
+         )
+    (:require [SelfServer.models.mongo :as mongo]
+              [SelfServer.views.common :as common]) 
+  )
+
+(defpage "/metrics" []
+  (common/layout survey) 
+  )
+
+(defn drug-form-array [name default]
+  [name "text" (str "How much " name " did you take today?(mg)") default]
+  )
+
+(def drugs [ ["fluoxetine" 40]
+            ["clonazepam" 1.5]
+            ["bupropion" 150]
+            ["estradiol" 6]
+            ["spironolactone" 200]
+            ["L-Theanine" 0]
+            ["GABA" 0]
+            ])
+;display nightly form
+(defpartial survey []
+  [:form {:action "/metrics" 
+          :class "form form-horizontal" }
+   (common/bootstrap-input "fluoxetine" "text" "How much fluoxetne did you take today (mg" "40")
+  ]
+  )
+
+
+
+
+
+
