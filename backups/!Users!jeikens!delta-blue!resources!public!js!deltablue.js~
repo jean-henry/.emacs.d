@@ -9,7 +9,7 @@ $(document).ready(function(){
    for(i = 0; i < primeStr.split(" ").length; i++){
         primes[i] = parseInt(primeStr.split(" ")[i]);
     }
-    $('#fading-square').fadeOut(1000);
+    delTableaux($("body"),24);
 });
 
 
@@ -31,6 +31,14 @@ function primeFactorization(num){
   return (x === num) ? result : primeFactorization(num/x, result) ;
 }
 
+//Map a prime exponent and the power it is raised to a HSB color.
+function toColor(exp,power){
+    var hue = 20 * (exp%13);
+    var sat = Math.max(100 * (10 - exp/13),0);
+    var bright = Math.max(100 * (1 - power),0);
+    return Color({h: hue, s:sat,l:bright});
+}
+
 //Convert an integer into a prime-factor representation, a string of
 //format "d(A)(B)(C)(D)..."where (A) is the exponent of the first
 //prime, 1, (B) is the exponent of 2, and so on.
@@ -40,10 +48,10 @@ function primeFactorization(num){
 var delTableaux = function(containerElement,number){
     factors = primeFactorization(number);
     for(f in factors){
+        var power = 1;
+        for(;number%Math.pow(factors[f],power);power++);
+        var blockColor = toColor(number,power);
+        $(containerElement).append("<div style='background-color:" + blockColor.hslString() + "; width: 20px; height:20px;'></div>");
     }
 }
-
-function toColor(exp,power){
-    var hue = 20 * (exp%13);
-    var sat = 100 * (10 - exp/13);
-    var bright = 100 * (1 - power);
+xf

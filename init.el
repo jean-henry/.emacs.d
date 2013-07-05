@@ -8,13 +8,18 @@
 ;; Add in your own as you wish:
 (defvar my-packages '(starter-kit starter-kit-lisp starter-kit-bindings)
   "A list of packages to ensure are installed at launch.")
-(load-theme 'zenburn t)
+(load-theme 'solarized-dark t)
 
 (set-face-attribute 'default nil :height 120)
 
 ;; Square bracket wrapping with meta key.
 (global-set-key (kbd "M-[") 'paredit-wrap-square)
 (global-set-key (kbd "C-x f") 'find-file)
+
+;;Set up dired to always run in the same buffer.
+
+(toggle-diredp-find-file-reuse-dir 1)
+
 (global-linum-mode t)
 (set-frame-parameter nil 'fullscreen 'fullboth)
 

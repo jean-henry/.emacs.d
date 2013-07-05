@@ -2,6 +2,11 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/jeikens/.emacs.d/.me/" . "write/")
+ ("/Users/jeikens/.emacs.d/" . ".me/")
+ ("/usr/local/opt/python/" . "bin/")
+ ("/usr/local/opt/" . "python/")
+ ("/usr/local/" . "bin/")
  ("/Users/jeikens/web/elacarte/metrics/" . "views/")
  ("/Users/jeikens/web/services/" . "web-all-in-one/")
  ("/Users/jeikens/web/" . "elacarte/")
@@ -18,15 +23,20 @@
  ("/ssh:root@192.168.1.223:/opt/" . "elacarte/")
  ("/Users/jeikens/delta-blue/resources/public/" . "js/")
  ("/Users/jeikens/delta-blue/resources/" . "public/")
- ("/Users/jeikens/delta-blue/" . "src/")
- ("/Users/jeikens/" . "web/")
+ ("/Users/jeikens/delta-blue/" . "resources/")
+ ("/Users/jeikens/" . "delta-blue/")
  ("/Users/jeikens/delta-blue/src/delta_blue/" . "views/")
  ("/Users/jeikens/delta-blue/src/" . "delta_blue/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/jeikens/delta-blue/src/delta_blue/"
+ "/Users/jeikens/delta-blue/resources/public/css/"
+ "/Users/jeikens/delta-blue/"
  "/Users/jeikens/"
+ "/Users/jeikens/.emacs.d/"
+ "/Users/jeikens/.emacs.d/.me/write/"
  "/Users/jeikens/ELCPosMon/posmon/"
  "/Users/jeikens/web/elacarte/common/models/"
  "/Users/jeikens/web/elacarte/common/"
@@ -46,28 +56,44 @@
  "/root@192.168.1.223:"
  "/opt/"
  "/Users/jeikens/delta-blue/src/delta_blue/views/"
- "/Users/jeikens/delta-blue/src/delta_blue/"
  "/Users/jeikens/delta-blue/resources/public/js/"
- "/Users/jeikens/.emacs.d/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "server.clj"
+ "dblue.css"
+ "init.el"
+ "07-04-13"
+ "#?????#"
+ "?????"
+ ".profile"
  ".bashrc"
  ".bash_profile.macports-saved_2013-07-03_at_11:39:14"
  ".bash_profile.macports-saved_2013-07-03_at_11:36:42"
- ".bash_profile"
- ".profile"
- "posmon.py"
- "piston.py"
- "heartbeat.py"
- "models.py"
- "posmon_heartbeats.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/jeikens/" (20948 32038 0 0) "web/" "VirtualBox VMs/" "This" "Qt5.0.2/" "Public/" "pip-cache/" "Pictures/" "pgadmin.log" "Music/" "Movies/" "Library/" "ELCPosMon/" "ElaCarte/" "edb_phppgadmin.app.zip" "edb_apachephp.app.zip" "Downloads/" "Documents/" "Desktop/" "delta-blue/" "Client/" "build-ECL-Desktop_Qt_5_0_2_clang_64bit-Debug/" "06-20-2013" ".viminfo" ".Trash/" ".ssh/" ".sh_history" ".recentf" ".psql_history" ".profile" ".pip/" ".pgpass" ".pgadmin_histoqueries" ".macports/" ".m2/" ".lein/" ".ido.last" ".emacs.d/" ".DS_Store" ".config/" ".CFUserTextEncoding" ".CF89AA64" ".bashrc" ".bash_profile.macports-saved_2013-07-03_at_11:39:14" ".bash_profile.macports-saved_2013-07-03_at_11:36:42" ".bash_profile" ".bash_history" ".#.bash_profile" "#.bash_profile#" "../" "./")
+ ("/Users/jeikens/delta-blue/resources/public/css/" (20950 20505 0 0) "reset.css" "dblue.css" "../" "./")
+
+ ("/Users/jeikens/delta-blue/" (20950 21114 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" ".gitignore" ".DS_Store" "../" "./")
+
+ ("/Users/jeikens/.emacs.d/" (20950 20204 0 0) "url/" "tramp" "places" "johneikens-theme.el" "init.el" "elpa/" "backups/" "auto-save-list/" ".smex-items" ".me/" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/jeikens/" (20950 20204 0 0) "VirtualBox VMs/" "This" "Qt5.0.2/" "Public/" "pip-cache/" "Pictures/" "pgadmin.log" "Music/" "Movies/" "Library/" "e-la-carte/" "Downloads/" "Documents/" "Desktop/" "delta-blue/" "build-ECL-Desktop_Qt_5_0_2_clang_64bit-Debug/" "06-20-2013" ".viminfo" ".Trash/" ".ssh/" ".sh_history" ".recentf" ".psql_history" ".profile" ".pip/" ".pgpass" ".pgadmin_histoqueries" ".macports/" ".m2/" ".lein/" ".ido.last" ".emacs.d/" ".DS_Store" ".config/" ".CFUserTextEncoding" ".CF89AA64" ".bashrc" ".bash_profile.macports-saved_2013-07-03_at_11:39:14" ".bash_profile.macports-saved_2013-07-03_at_11:36:42" ".bash_profile" ".bash_history" "#.profile#" "../" "./")
+
+ ("/Users/jeikens/.emacs.d/.me/write/" (20950 13297 0 0) "?????" "07-04-13" ".##?????#" "#?????#" "../" "./")
+
+ ("/Users/jeikens/.emacs.d/.me/" (20950 9878 0 0) "write/" "ideas/" "../" "./")
+
+ ("/usr/local/opt/python/bin/" (20937 60331 0 0) "smtpd2.py" "smtpd2.7.py" "smtpd.py" "pythonw2.7" "pythonw2" "pythonw" "python2.7-config" "python2.7" "python2-config" "python2" "python-config" "python" "pydoc2.7" "pydoc2" "pydoc" "pip-2.7" "pip" "idle2.7" "idle2" "idle" "easy_install-2.7" "easy_install" "2to3-2.7" "2to3-2" "2to3" "../" "./")
+
+ ("/usr/local/opt/python/" (20937 60332 0 0) "share/" "README" "Python Launcher.app/" "LICENSE" "INSTALL_RECEIPT.json" "IDLE.app/" "Frameworks/" "Build Applet.app/" "bin/" "../" "./")
+
+ ("/usr/local/opt/" (20944 42789 0 0) "wine/" "sqlite/" "serf/" "readline/" "python/" "pkg-config/" "ossp-uuid/" "little-cms/" "libtool/" "libtiff/" "libpng/" "libicns/" "leiningen/" "jpeg/" "jasper/" "gdbm/" "clojure/" "../" "./")
+
+ ("/usr/local/bin/" (20945 48566 0 0) "youtube-dl" "wtpt" "wrjpgcom" "wrc" "wmc" "wineserver" "winepath" "winemine" "winemaker" "winegcc" "wineg++" "winefile" "winedump" "winedbg" "winecpp" "wineconsole" "winecfg" "winebuild" "wineboot" "wine.bin" "wine" "widl" "virtualenv-2.7" "virtualenv" "tmrdemo" "tiffsplit" "tiffset" "tiffmedian" "tiffinfo" "tifficc" "tiffdump" "tiffdither" "tiffdiff" "tiffcrop" "tiffcp" "tiffcmp" "tiff2rgba" "tiff2ps" "tiff2pdf" "tiff2bw" "thumbnail" "testgdbm" "taskadmin" "smtpd2.py" "smtpd2.7.py" "smtpd.py" "sdbadmin" "s3put" "s3multiput" "route53" "rgb2ycbcr" "regsvr32" "regedit" "rdjpgcom" "raw2tiff" "raven" "ras2tiff" "pythonw2.7" "pythonw2" "pythonw" "python2.7-config" "python2.7" "python2-config" "python2" "python-config" "python" "pydoc2.7" "pydoc2" "pydoc" "pyami_sendmail" "ppm2tiff" "png2icns" "pkg-config" "pip-2.7" "pip" "pal2rgb" "notepad" "nosetests-2.7" "nosetests" "msiexec" "lss3" "list_instances" "libpng15-config" "libpng-config" "lein" "launch_instance" "kill_instance" "jpegtran" "jpegicc" "jasper" "instance_events" "imginfo" "imgcmp" "idle2.7" "idle2" "idle" "icontainer2icns" "icns2png" "icctrans" "icclink" "icc2ps" "glibtoolize" "glibtool" "glacier" "gif2tiff" "function_grep.pl" "fetch_file" "fax2tiff" "fax2ps" "fab" "f2py" "en-ffmpeg" "elbadmin" "easy_install-2.7" "easy_install" "djpeg" "cwutil" "cq" "clj" "cjpeg" "cfadmin" "bundle_image" "brew" "bmp2tiff" "asadmin" "2to3-2.7" "2to3-2" "2to3" "../" "./")
 
  ("/usr/" (20944 40502 0 0) "X11R6/" "X11/" "tmp/" "standalone/" "share/" "sbin/" "local/" "llvm-gcc-4.2/" "libexec/" "lib/" "include/" "bin/" "../" "./")
 
@@ -125,8 +151,6 @@
 
  ("/Users/jeikens/delta-blue/resources/public/js/" (20937 55716 0 0) "require.js" "deltablue.js" "color.js" ".DS_Store" ".#deltablue.js" "#deltablue.js#" "../" "./")
 
- ("/Users/jeikens/delta-blue/" (20936 52367 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" ".gitignore" ".DS_Store" "../" "./")
-
  ("/Users/jeikens/delta-blue/resources/" (20936 52367 0 0) "public/" ".DS_Store" "../" "./")
 
  ("/Users/jeikens/delta-blue/resources/public/" (20936 52367 0 0) "js/" "img/" "css/" ".DS_Store" "../" "./")
@@ -134,8 +158,6 @@
  ("/Users/jeikens/Downloads/" (20936 51915 0 0) "SpotifyInstaller.zip" "mac_GitHub for Mac 150.zip" "Install Spotify.app/" "googlechrome.dmg" "emacs.d.zip" "Emacs-24.3-universal-10.6.8.dmg" "eclipse-jee-juno-SR2-macosx-cocoa-x86_64.tar.gz" "color.js" "BrainExplorer2Mac.zip" "About Downloads.lpdf/" ".localized" ".emacs.d 2/" ".emacs.d/" ".DS_Store" "../" "./")
 
  ("/Users/jeikens/delta-blue/src/delta_blue/views/" (20936 38191 0 0) "welcome.clj" "common.clj" ".#common.clj" "#common.clj#" "../" "./")
-
- ("/Users/jeikens/.emacs.d/" (20936 32761 0 0) "url/" "tramp" "places" "johneikens-theme.el" "init.el" "elpa/" "backups/" "auto-save-list/" ".smex-items" ".DS_Store" "../" "./")
 
  ("/Users/" (20933 63815 0 0) "Shared/" "jeikens/" ".localized" "../" "./")
 

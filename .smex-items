@@ -2,24 +2,32 @@
 ;; ----- smex-history -----
 (
  kill-line
+ erc
+ package-install
  package-list-packages
- shell
- recover-this-file
- customize-themes
  load-theme
- set-background-color
+ custom-theme-visit-theme
+ customize
 )
 
 ;; ----- smex-data -----
 (
  (shell . 7)
- (package-install . 2)
+ (package-install . 5)
  (nrepl-jack-in . 1)
  (list-colors-display . 1)
  (set-background-color . 1)
- (package-list-packages . 4)
+ (package-list-packages . 6)
  (customize-themes . 3)
- (load-theme . 1)
+ (load-theme . 5)
  (recover-this-file . 1)
- (kill-line . 1)
+ (kill-line . 2)
+ (mouse-major-mode-menu . 2)
+ (describe-mode . 1)
+ (browse-url . 2)
+ (customize . 1)
+ (custom-theme-visit-theme . 1)
+ (toggle-diredp-find-file-reuse-dir . 2)
+ (diredp-dired-files . 1)
+ (erc . 3)
 )
